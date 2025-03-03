@@ -18,7 +18,7 @@ jobs:
       uses: lmvysakh/setup-node@setupnode_1233_test1
       with:
         node-version: '16'
-        cache: 'npm'
+        cache: 'yarn'
         
     # - name: Cache npm dependencies
     #   id: cache-npm
